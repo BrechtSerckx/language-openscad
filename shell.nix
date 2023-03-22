@@ -19,6 +19,7 @@ in project.shellFor {
     (import sources.nixpkgs-act { }).act
     cmake
     bash
+    haskell-ci
   ];
 
   exactDeps = true;
